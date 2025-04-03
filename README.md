@@ -36,7 +36,7 @@ A recommendation system is an essential part of modern digital platforms, provid
 
 ### 3. Evaluation & Results
 - The *Root Mean Square Error (RMSE) = 0.94, and **Mean Absolute Error (MAE) = 0.74*, indicating good prediction accuracy.
-- Cross-validation confirmed *consistent performance, with an average **RMSE of 0.95* and *MAE of 0.75*.
+- Cross-validation confirmed *consistent performance, with an average **RMSE of 0.93* and *MAE of 0.73*.
 
 ### 4. Generating Movie Recommendations
 - For a given user, the system identifies *unrated movies* and predicts ratings for them.
