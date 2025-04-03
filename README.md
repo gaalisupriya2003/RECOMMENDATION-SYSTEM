@@ -13,7 +13,7 @@
 **MENTOR NAME**:NEELA SANTHOSH
 
 # Movie Recommendation System using SVD
-A recommendation system is an essential part of modern digital platforms, providing personalized content to users. This project implements a *Movie Recommendation System* using *Collaborative Filtering* and *Matrix Factorization (SVD - Singular Value Decomposition)* to suggest movies based on user ratings. The model is trained on a * dataset from kaggle *, using **Surprise*, a Python library for recommendation systems.
+A recommendation system is an essential part of modern digital platforms, providing personalized content to users. This project implements a *Movie Recommendation System* using *Collaborative Filtering* and *Matrix Factorization (SVD - Singular Value Decomposition)* to suggest movies based on user ratings. The model is trained on a dataset from kaggle , using Surprise, a Python library for recommendation systems.
 
 ## Tools and Technologies Used
 - *Programming Language*: Python  
@@ -21,7 +21,6 @@ A recommendation system is an essential part of modern digital platforms, provid
   - *Pandas & NumPy*: Data manipulation and analysis  
   - *Surprise*: Implementation of collaborative filtering techniques  
   - *Matplotlib*: Data visualization  
-  - *GridSearchCV*: Hyperparameter tuning  
   - *Train-Test Split & Cross-Validation*: Model evaluation  
 
 ## Methodology
@@ -35,8 +34,8 @@ A recommendation system is an essential part of modern digital platforms, provid
 - *SVD (Singular Value Decomposition)* was applied, which factorizes the user-item matrix into lower-dimensional matrices to predict missing ratings.
 
 ### 3. Evaluation & Results
-- The *Root Mean Square Error (RMSE) = 0.94, and **Mean Absolute Error (MAE) = 0.74*, indicating good prediction accuracy.
-- Cross-validation confirmed *consistent performance, with an average **RMSE of 0.93* and *MAE of 0.73*.
+- The Root Mean Square Error (RMSE) = 0.94, and Mean Absolute Error (MAE) = 0.74, indicating good prediction accuracy.
+- Cross-validation confirmed consistent performance, with an average RMSE of 0.93 and MAE of 0.73.
 
 ### 4. Generating Movie Recommendations
 - For a given user, the system identifies *unrated movies* and predicts ratings for them.
@@ -44,7 +43,7 @@ A recommendation system is an essential part of modern digital platforms, provid
 - Movie names were mapped to their respective IDs to provide meaningful recommendations.
 
 ## Outputs and Observations
-- *Predicted Ratings: The recommended movies had predicted ratings between **3.8 and 4.5*, ensuring quality suggestions.
+- *Predicted Ratings: The recommended movies had predicted ratings between 3.8 and 4.5, ensuring quality suggestions.
 - *Rating Distribution Analysis*:
   - Most ratings ranged between *3.5 and 4.0*, indicating users tend to give positive reviews.                      
 ## Applications of the System
