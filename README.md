@@ -56,3 +56,15 @@ A recommendation system is an essential part of modern digital platforms, provid
 This project successfully demonstrates *how collaborative filtering and SVD can be used to build an effective movie recommendation system*, providing personalized experiences for users.
 
 ## Output of this Task
+
+## Evaluation Metrics
+
+![Image](https://github.com/user-attachments/assets/5a64f4a9-6ed1-4ce0-9d5c-2b56a2b6d351)
+
+## Cross Validation Results
+
+![Image](https://github.com/user-attachments/assets/102f5431-9b99-402f-b067-5324a22f5389)
+
+## Predicted Outputs 
+
+![Image](https://github.com/user-attachments/assets/4b31e0c7-194e-43aa-b390-1cecce2d221f)
